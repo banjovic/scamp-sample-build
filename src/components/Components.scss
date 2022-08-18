@@ -1,0 +1,29 @@
+@import "../styles/scamp-colors.scss";
+
+.hero-wrapper {
+  padding-top: 98px;
+  padding-bottom: 98px;
+  font-family: Inter;
+  font-style: normal;
+
+  .hero-title {
+    color: $scamp-purple;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .hero-subtitle {
+    line-height: 24px;
+    color: $scamp-main-gray;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+  }
+
+  .hero-description {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 10px;
+    color: $scamp-sub-gray;
+  }
+}

@@ -1,0 +1,35 @@
+@import "./scamp-colors.scss";
+@mixin scamp-btn {
+  border-radius: 8px !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  padding: 8px 18px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-transform: none !important;
+}
+
+.scamp-btn-primary {
+  background-color: $scamp-purple !important;
+  color: $scamp-full-white !important;
+  @include scamp-btn;
+  &:disabled {
+    color: $scamp-full-white !important;
+    background-color: rgba(127, 86, 217, 0.54) !important;
+  }
+}
+
+.scamp-btn-secondary {
+  background-color: transparent !important;
+  color: $scamp-sub-gray !important;
+  @include scamp-btn;
+}
+
+.font-weight-600 {
+  font-weight: 600 !important;
+}
+
+.font-weight-400 {
+  font-weight: 400 !important;
+}
